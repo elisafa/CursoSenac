@@ -30,7 +30,7 @@ public class Principal {
                
                 break;
             case 2:
-                cDAO.listarTodos();
+                //cDAO.listarTodos();
                 break;
             case 3:
                 
@@ -47,13 +47,13 @@ public class Principal {
                 System.out.println("Digite a id do cliente a excluir: ");
                 id = sc.nextInt();
                 
-                cDAO.delete(id);
+                //cDAO.delete(id);
                 break;
                 
             case 5:
                 System.out.println("Digite o id do Cliente: ");
                 id = sc.nextInt();
-                cDAO.findById(id);
+                //cDAO.findById(id);
                 System.out.println(id);
                 //System.out.println("O cliente é " +);
                 break;
